@@ -36,14 +36,19 @@ string a[1005];
 int ver=0;
 int main(){
 	a[0]="阿萨德法律框架和过";
+	//a[0]="byd";
 	a[1]="撒发是v都不高耗能";
 	a[2]="发哈肌肤的那家都舒服呢就那";
 	a[3]="啊加奶粉就卡就那啥的呢就";
 	a[4]="阿基诺发的看到你开发你的";
 	a[5]="克劳福德是昆仑饭店水";
 	srand((unsigned)time(NULL));
-	cout<<"输入你的模式(按空格开始，按空格结束)："<<endl<<"1.重复 阿萨德法律框架和过"<<endl<<"2.随机"<<endl;
+	cout<<"Copyright 2023-2023 ErrorDesign v1.1"<<endl; 
+	cout<<"输入你的模式(按空格开始，按空格结束)："<<endl<<"1.重复 阿萨德法律框架和过"<<endl<<"2.随机"<<endl"3.修改默认词库"<<endl;
 	cin>>ver;
+	if(ver==3){
+		cin>>a[0];
+	} 
  	//Sleep(5000);
  	char c = 'A';
  	
@@ -60,7 +65,7 @@ int main(){
 			break;
 		}else{
 			send(a[rand()%num]);
-			Sleep(300);
+			Sleep(100);
 		}
 	}
 	return 0; 
