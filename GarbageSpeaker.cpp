@@ -44,7 +44,7 @@ int main(){
 	a[5]="克劳福德是昆仑饭店水";
 	srand((unsigned)time(NULL));
 	cout<<"Copyright 2023-2023 ErrorDesign v1.1"<<endl; 
-	cout<<"输入你的模式(按空格开始，按空格结束)："<<endl<<"1.重复 阿萨德法律框架和过"<<endl<<"2.随机"<<endl"3.修改默认词库"<<endl;
+	cout<<"输入你的模式(按空格开始，按空格结束)："<<endl<<"1.重复 阿萨德法律框架和过"<<endl<<"2.随机"<<endl<<"3.修改默认词库"<<endl;
 	cin>>ver;
 	if(ver==3){
 		cin>>a[0];
